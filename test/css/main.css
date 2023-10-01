@@ -1,0 +1,564 @@
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, dl, dt, dd, 
+ol, ul, li, form, table, caption, tr, th, td, article, aside, footer, header{
+                 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    font-family: Graphik LCG;    
+    background-color: #f7f7f7;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 32px;
+}
+h5 {
+    color: var(--Black, #191C1F);
+text-align: center;
+/* Headline 5 */
+font-family: Graphik LCG;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 120% */
+}
+h6 {
+    color: var(--Black, #191C1F);
+/* Headline 6 */
+font-family: Graphik LCG;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+}
+
+header {
+    background: var(--Primary, #2A6CEA);
+    opacity: 0.8;
+    background: url("/home/nvask/Development/test/Lunch_atop_a_Skyscraper 1.png"), lightgray 0px -38.175px / 100% 154.346% no-repeat;
+ z-index: 1;
+    width: 100%;
+    height: 960px;
+    margin: auto;
+    position: relative;
+
+}
+header:after {
+        width: 100%;
+    content: "";
+    position: absolute;
+    background: var(--Primary, #2A6CEA);
+    opacity: 0.8;
+    height: 960px;
+    z-index: -1;
+    transform: translate(0, -727px);
+}
+
+#aligncenter {
+    margin: auto;
+    width: 1216px;
+}
+
+#navpanel {
+    margin: auto;
+    width: 1216px;
+    height: 80px;
+    padding: 26px 0  26px 0;
+
+}
+#imglogo {
+    width: 24px;
+    height: 24px;
+    background: url("/home/nvask/Development/test/Ellipse 1.png");
+    float: left;
+    margin-right: 22px;
+}
+#imglogo:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url("/home/nvask/Development/test/Ellipse 2.png");
+    float: left;
+    transform: translate(13px, 0)
+}
+#logo {
+    width: 122px;
+    margin-right: 629px;
+    float: left;
+}
+#namelogo {
+    color: var(--White, #FFF);
+/* Headline 5 */
+font-family: Graphik LCG;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 120% */
+}
+nav {
+    display: inline-block;
+}
+nav ul {
+     list-style-type: none;
+     color: var(--White, #FFF);
+/* Body 16 */
+font-family: Graphik LCG;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+nav ul li {
+    text-decoration: none;
+    float: left;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    text-decoration-line: underline;
+}
+#hidenmenu {
+    display: none;
+    background: url("/home/nvask/Development/test/hm.png");
+    width: 22px;
+    height: 12px;
+    margin-left: auto;
+  margin-right: 0;
+}
+#wordsone {
+    color: var(--White, #FFF);
+text-align: center;
+/* Headline 1 */
+font-family: Graphik LCG;
+font-size: 52px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; /* 123.077% */
+margin-bottom: 18px;
+}
+
+#wordstwo {
+    color: var(--White, #FFF);
+text-align: center;
+/* Body 18 */
+font-family: Graphik LCG;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
+#centerHeader {
+    width: 748px;
+    margin: auto;
+    margin-top: 313px;
+    align-items: center;
+}
+#button {
+    cursor: pointer;
+    width: 251px;
+    margin: auto;
+    margin-top: 92px;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--Light-gray, #ECEFF2);
+}
+
+@media screen and (width < 1200px){
+    nav ul {
+        display: none;
+    }
+    #hidenmenu {
+        display: inline-block;
+        cursor: pointer;
+    }
+    #wordsone {
+    color: var(--White, #FFF);
+text-align: center;
+/* Headline 3 */
+font-family: Graphik LCG;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 125% */;
+}
+
+#wordstwo {
+    color: var(--White, #FFF);
+text-align: center;
+/* Body 16 */
+font-family: Graphik LCG;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+header:after {
+        width: 100%;
+    content: "";
+    position: absolute;
+    background: var(--Primary, #2A6CEA);
+    opacity: 0.8;
+    height: 960px;
+    z-index: -1;
+    transform: translate(0, -675px);
+}
+#centerHeader {
+    width: 548px;
+    margin: auto;
+    margin-top: 313px;
+    align-items: center;
+}
+#aligncenter {
+    margin: auto;
+    width: 768px;
+}
+}
+@media screen and (width < 800px){
+ #logo {
+    margin-right: 530px;
+}   
+}
+
+
+main {
+    margin: auto;
+    margin-top: 80px;
+}
+#infoblock {
+    margin: auto;
+    width: 1216px;
+    height: 281px;
+}
+
+#infoblock h2 {
+    padding: 8px 0 8px 0;
+}
+
+#tips {
+    margin: auto;
+    display: flex;
+    margin-top: 61px;
+}
+
+.tip {
+    margin-left: 32px;
+    max-width: 280px;
+    max-height: 164px;
+}
+
+#tips :first-child {
+     margin-left: 0px;
+}
+
+.tipimg {
+    
+    /*background-color: blue;*/
+    width: 72px;
+    height: 72px;
+    margin-bottom: 16px;
+
+}
+.tiptext {
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#congratblock {
+    margin: auto;
+    margin-top: 80px;
+    width: 1216px;
+    display: flex;
+}
+#congratcont {
+    padding-top: 125px;
+    width: 592px;
+}
+#congrattext {
+    margin-top: 18px;
+    font-size: 16px;
+    font-family: Graphik LCG;
+    font-style: normal;font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+#congratimg {
+    background: url("/home/nvask/Development/test/2_2.png");
+    width: 592px;
+    height: 448px;
+    margin-left: 30px;
+    position: relative;
+}
+#congratimg:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background: url("/home/nvask/Development/test/2_1.png");
+    width: 592px;
+    height: 448px;
+}
+
+#reviewsblock {
+    width: 1216px;
+    height: 564px;
+    margin: auto;  
+    margin-top: 80px;
+}
+#reviewscont {
+    width: 1216px;
+    margin: auto;
+}
+#reviewsheader {
+   margin: auto;
+   margin-top: 57px;
+   height: 56px;
+   width: 156px;
+}
+#reviews {
+    margin-top: 32px;
+}
+
+#leftarr {
+    margin-top: 142px;
+    width: 32px;
+    height: 32px;
+    background: url("/home/nvask/Development/test/leftarr.png");
+    float: left;
+    cursor: pointer;
+}
+
+.rev {
+width: 341px;
+height: 316px;
+padding: 22px 22px 62px 22px;
+margin-left: 32px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+background-color: blue;
+float: left;
+border-radius: 8px;
+background: var(--White, #FFF);
+box-shadow: 0px 5px 24px 0px rgba(0, 0, 0, 0.10);
+margin-bottom: 50px;
+cursor: pointer;
+}
+
+.revtop {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 68px;
+    clear: both;
+}
+.revimg {
+    float: left;
+    margin-right: 16px;
+    height: 100%;
+    clear: both;
+}
+.revimg img {
+      border-radius: 44px;
+}
+
+.revuserinf {
+    width: 100%;
+    font-size: 12px;
+     word-wrap: break-word;
+}
+.revtext {
+     display: block;
+   width: 100%;
+   color: var(--Black, #191C1F);
+/* Body 14 */
+font-family: Graphik LCG;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+}
+
+#rightarr {
+    margin-top: 142px;
+    margin-left: 32px;
+    width: 32px;
+    height: 32px;
+    background: url("/home/nvask/Development/test/rightarr.png");
+    float: left;
+    cursor: pointer;
+}
+#revdots {
+    width: 108px;
+    margin: auto;
+    cursor: pointer;
+}
+@media screen and (width < 1216px){
+    #infoblock {
+    width: 718px;
+    height: 282px;
+}
+    #tips {
+    display: flex;
+    margin-top: 61px;
+    flex-wrap: wrap;
+}
+    .tipimg {
+        float: left;
+        margin-right: 16px;
+    }
+    .tip {
+        margin-left: 0;
+        width: 358px;
+        margin-right: 68px;
+    }
+    #congratblock {
+        width: 768px;
+    }
+    #congratcont {
+        width: 347px;
+        padding-top: 0;
+        margin-left: 30px;
+    }
+    #congratimg {
+    background: url("/home/nvask/Development/test/smkam.png"), no-repeat;;
+    width: 342px;
+    height: 258px;
+    margin-left: 30px;
+    position: relative;
+    }
+    #congratimg:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background: url("/home/nvask/Development/test/smman.png"), no-repeat;;
+    width: 342px;
+    height: 258px;
+    }
+    #reviewsblock {
+        width: 768px;
+        overflow: hidden;
+        height: 500px;
+    }
+    #reviewscont {
+        width: 768px;
+    }
+    .rev {
+        width: 351px;
+        margin-left: 24px;
+    }
+    #leftarr {
+        display: none;
+    }
+    #rightarr {
+       display: none; 
+    }
+}
+footer {
+    margin-top: 125px;
+    clear: both;
+    text-align: center;
+    padding: 28px 0 28px 0;
+    color: var(--Black, #191C1F);
+text-align: center;
+/* Body 18 */
+font-family: Graphik LCG;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+
+}
+@media screen and (width < 765px){
+    header:after {
+        width: 100%;
+    content: "";
+    position: absolute;
+    background: var(--Primary, #2A6CEA);
+    opacity: 0.8;
+    height: 960px;
+    z-index: -1;
+    transform: translate(0, -742px);
+}
+    #aligncenter {
+        width: 342px;
+    }
+    #navpanel {
+        width: 342px;
+    }
+    #centerHeader {
+        width: 342px;
+    }
+    #logo {
+        margin-right: 170px;
+    }
+    #hidenmenu {
+        margin-top: 5px;
+    }
+    #infoblock {
+    width: 342px;
+    height: auto;
+}
+    #tips {
+    display: flex;
+    margin-top: 61px;
+    flex-wrap: wrap;
+}
+    .tip {
+        margin-bottom: 32px;
+    }
+    #congratblock {
+        margin-top: 24px;
+    width: 342px;
+    flex-wrap: wrap-reverse;
+}
+    #congratimg {
+    background: url("/home/nvask/Development/test/xsmkam.png"), no-repeat;;
+    width: 342px;
+    height: 258px;
+    margin-left: 15px;
+    position: relative;
+    }
+    #congratimg:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background: url("/home/nvask/Development/test/xsmman.png"), no-repeat;;
+    width: 342px;
+    height: 258px;
+    }
+    #reviewsblock {
+        width: 342px;
+        overflow: hidden;
+        height: 500px;
+        margin-top: 56px;
+    }
+    #reviewscont {
+        width: 342px;
+    }
+    .rev {
+        width: 310px;
+        margin-left: 24px;
+    }
+    footer {
+        margin-top: 43px;
+    }
+}
+
+
+
